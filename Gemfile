@@ -56,3 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Template engines
 gem "slim-rails", "~> 3.2.0"
 gem "haml-rails", "~> 2.0.1"
+
+# To fake data
+gem "ffaker", "~> 2.17.0"
