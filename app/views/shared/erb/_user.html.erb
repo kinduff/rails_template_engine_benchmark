@@ -1,0 +1,7 @@
+<h3><%= user.first_name %> <%= user.last_name %></h3>
+<p><%= user.bio %></p>
+<h4>Skills</h4>
+<ul>
+  <%= render partial: 'shared/erb/skill', collection: user.skills %>
+</ul>
+<hr />

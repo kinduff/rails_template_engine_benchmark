@@ -1,0 +1,8 @@
+h3
+  = user.first_name
+  = user.last_name
+p= user.bio
+h4 Skills
+ul
+  = render partial: 'shared/slim/skill', collection: user.skills
+hr/

@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get '/erb', to: 'pages#erb'
+  get '/haml', to: 'pages#haml'
+  get '/slim', to: 'pages#slim'
 end
