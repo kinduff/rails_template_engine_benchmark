@@ -17,6 +17,6 @@ class PagesController < ApplicationController
   private
 
   def set_data
-    @users = User.includes(:skills)
+    @users = User.includes(:skills).limit(50)
   end
 end
